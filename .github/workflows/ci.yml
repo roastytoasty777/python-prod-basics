@@ -4,4 +4,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "CI ok"
+      - uses: actions/checkout@v4
+      - run: ls
