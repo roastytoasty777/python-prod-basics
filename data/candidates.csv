@@ -1,0 +1,5 @@
+name,email,experience
+Test,test@example.com,0
+John,john@example.com,5
+Alice,alice@example.com,-1
+Sam,invalid-email,3
