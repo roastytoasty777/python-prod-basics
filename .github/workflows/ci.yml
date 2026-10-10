@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ls
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.14
+      - run: python --version
